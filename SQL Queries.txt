@@ -1,0 +1,23 @@
+SELECT Address.*, Building.*
+FROM     Address INNER JOIN
+                  Building ON Address.Address_ID = Building.Address_ID
+ORDER BY Building.Building_Name
+
+SELECT Address.*, Person.*
+FROM     Address INNER JOIN
+                  Person ON Address.Address_ID = Person.Address_ID
+ORDER BY Person.Last_Name
+
+SELECT Building.Building_Name, Address.*
+FROM     Address INNER JOIN
+                  Building ON Address.Address_ID = Building.Address_ID
+ORDER BY Address.City
+
+SELECT Invoice.*, Receipt.*
+FROM     Invoice INNER JOIN
+                  Receipt ON Invoice.InvoiceID = Receipt.Invoice_ID
+
+SELECT LineItem.Qty, Product.Name, Product.Price
+FROM     LineItem INNER JOIN
+                  Product ON LineItem.Product_ID = Product.Product_ID
+WHERE  (LineItem.Invoice_ID = 1)
