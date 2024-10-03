@@ -1,0 +1,12 @@
+(As a <user type>, I want to <some goal> so that <some reason>)
+
+As a collector, I want to add new cars to my collection so that I can keep a record of the full collection.
+
+As a collector, I want to view a list of all the cars in my collection so I can easily determine how many I own along with the different versions/variations.
+
+As a collector, I want to organize my cars by series so that I can easily determine how many in each I currently own.
+
+As a collector, I want to track the estimated value of each car so that I can see what each is worth and the change over time. 
+
+As a collector, I want to search for specific cars in my collection by model, car type or color so that I an quickly find the one I am looking for.
+

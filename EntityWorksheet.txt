@@ -1,0 +1,5 @@
+Car(ID,Model_Name,Year,Series_ID,Color,Type)
+Series(ID,Series_Name,Year,Total_Cars)
+Value(ID,Car_ID,Estimated_Value,Valuation_Date)
+Version(ID,Car_ID,Version_Type,Release_Year)
+																								

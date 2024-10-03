@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="MyPersonalProjectHotWheels">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="SBOECHLER:SBOECHLER\sboec">
+          <Created>2024-09-28T18:49:08.5026311-05:00</Created>
+          <Type>SQL</Type>
+          <Server>SBOECHLER</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>myPersonalProjectHotWheels</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <TrustServerCertificate>True</TrustServerCertificate>
+          <HostNameInServerCertificate />
+          <EncryptionOption>True</EncryptionOption>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Script.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SBOECHLER:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SBOECHLER</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Script.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items>
+        <FileNode Name="carTable.jpg">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>carTable.jpg</FullPath>
+        </FileNode>
+        <FileNode Name="EntityWorksheet.txt">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>EntityWorksheet.txt</FullPath>
+        </FileNode>
+        <FileNode Name="seriesTable.jpg">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>seriesTable.jpg</FullPath>
+        </FileNode>
+        <FileNode Name="UserStories.txt">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>UserStories.txt</FullPath>
+        </FileNode>
+        <FileNode Name="valueTable.jpg">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>valueTable.jpg</FullPath>
+        </FileNode>
+        <FileNode Name="versionTable.jpg">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>versionTable.jpg</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
